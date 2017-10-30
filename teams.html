@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: maroon;
+    color: white;
+    padding: 15px;
+}
+
+
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: teal;
+    
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+
+
+
+img {
+float: right;
+margirin 0 0 0 15px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <h1>Chania</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>Soccer</li>
+      <li>Basketball</li>
+      <li>Volleyball</li>
+      <li>Kadadee</li>
+    </ul>
+  </div>
+
+
+<div class="column content">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Enver_Creek_Secondary_%2884_Avenue%29.jpg/250px-Enver_Creek_Secondary_%2884_Avenue%29.jpg">
+    
+    <h1>Welcome</h1>
+ <p>Enver Creek has a various sports for you to choose from </p> 
+    </div>
+
+
+
+
+  </div>
+  
+  
+  
+  
+<div class="footer">
+  <p>Contact Us:</p>
+   <p>604-555-1234</p>
+</div>
+
+    
+ 
+
+
+</body>
+</html>
