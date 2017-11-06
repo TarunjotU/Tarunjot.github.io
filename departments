@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: maroon;
+    color: white;
+    padding: 15px;
+}
+img {
+    float: right;
+}
+.column {
+   
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: teal;
+    
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+.content {
+width:75%;
+}
+.menu ul {
+list-style-type:none;
+margin: 0;
+padding: 0;
+}
+img {
+width: 200px;
+height: 150px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <h1>Enver Creek Secondary</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>Home</li>
+      <li>Teams</li>
+      <li>Depament</li>
+    </ul>
+  </div>
+  
+  
+<div class="column content more">
+      <h1>Soccer</h1>
+      <img src="https://images.radio-canada.ca/w_635,h_357/v1/ici-info/sports/16x9/soccer-ballons-2.jpg">
+    
+ 
+ <p>Enver Creek has a various sports for you to choose from </p> 
+    </div>
+<div class="column content more">
+      
+    <h1>Basketball</h1> <img src="https://guardian.ng/wp-content/uploads/2016/04/Basketball.jpg">
+
+ <p>Enver Creek has a various sports for you to choose from </p> 
+    </div>
+    
+    
+    <div class="column content more">
+     <h1>Kabadee</h1>
+   <img src="https://images.mapsofindia.com/my-india/2014/12/kabaddi.jpg">
+    <p>Enver Creek has a various sports for you to choose from </p> 
+    </div>
+    
+    
+    <div class="column content more">
+       <h1>Volleyball</h1>
+  <img src="https://image.spreadshirtmedia.net/image-server/v1/mp/compositions/P114402819MPC128596632/views/3,width=300,height=300,appearanceId=1,backgroundColor=E8E8E8,version=1478003241/volleyball-t-shirts-men-s-t-shirt.jpg">
+    <p>Enver Creek has a various sports for you to choose from </p>
+
+    </div>
+    
+
+  </div>
+ 
+<div class="footer">
+  <p>Contact Us:</p>
+   <p>604-555-1234</p>
+</div>
+
+</body>
+</html>
