@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: maroon;
+    color: white;
+    padding: 15px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: teal;
+    color: #ffffff;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+.fr {
+	text-align: right;
+	float: right;
+}
+img {
+	width: 200px;
+    height: 150px;
+    float: right;
+    margin: 0 0 15px 15px;
+    }
+.more {
+	float: right;
+    }
+.lines {
+	float: right;
+    color: maroon;
+}
+body {
+	background-image: url("https://inspirationhut.net/wp-content/uploads/2013/05/201.png");
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.menu li a {
+	text-decoration: none;
+	color: white;
+	}
+</style>
+</head>
+<body>
+<div class="all">
+
+<div class="header">
+  <h1>Enver Creek</h1>
+</div>
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+	    <li><a href="https://TarunjotU.github.io/main page.html">Main Page</a></li>
+	    <li><a href="https://TarunjotU.github.io/teams.html">Clubs and Teams</a></li>
+	    <li><a href="https://TarunjotU.github.io/departments.html">Departments</a></li>
+    </ul>
+  </div>
+  <div class="column content">
+    <img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg">
+    <h1>Welcome</h1>
+    <p>This is the Enver Creek Secondary School website.</p>
+    <p>At Enver Creek Secondary School we provide opportunities for success and excellence as we prepare students to become confident, thoughtful, and responsible members of the community.</p>
+  </div>
+<p class="lines">____________________________________________________________________________</p>
+
+</div>
+<div class="footer">
+<div class="fr">
+<p>Phone: 604-543-8149</p>
+<p>Fax: 604-543-9762</p>
+</div>
+<p>14505-84 Avenue</p>
+<p>Surrey, B.C. Canada</p>
+</div>
+</div>
+</body>
+</html>
