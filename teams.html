@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,11 +11,8 @@
     color: white;
     padding: 15px;
 }
-img {
-    float: right;
-}
 .column {
-   
+    float: left;
     padding: 15px;
 }
 .clearfix::after {
@@ -37,81 +35,88 @@ img {
     padding: 8px;
     margin-bottom: 8px;
     background-color: teal;
-    
+    color: #ffffff;
 }
 .menu li:hover {
     background-color: #0099cc;
 }
-
-.content {
-width:75%;
+.fr {
+	text-align: right;
+	float: right;
 }
-.menu ul {
-list-style-type:none;
-margin: 0;
-padding: 0;
-}
-
 img {
-width: 200px;
-height: 150px;
+	width: 200px;
+    height: 150px;
+    float: right;
+    margin: 0 0 15px 15px;
+   
+    }
+.more {
+	float: right;
+    }
+.lines {
+	float: right;
+    color: maroon;
 }
-
+body {
+	background-image: url("https://inspirationhut.net/wp-content/uploads/2013/05/201.png");
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.menu li a {
+	text-decoration: none;
+	color: white;
+	}
 </style>
 </head>
 <body>
-
+<div class="all">
 
 <div class="header">
-  <h1>Enver Creek Secondary</h1>
+  <h1>Enver Creek</h1>
 </div>
-
 <div class="clearfix">
   <div class="column menu">
     <ul>
-      <li>Home</li>
-      <li>Teams</li>
-      <li>Depament</li>
+      <li><a href="https://TarunjotU.github.io/main.html">Main Page</a></li>
+	    <li><a href="https://TarunjotU.github.io/teams.html">Clubs and Teams</a></li>
+	    <li><a href="https://TarunjotU.github.io/departments.html">Departments</a></li>
     </ul>
   </div>
-  
-  
-<div class="column content more">
-      <h1>Soccer</h1>
-      <img src="https://images.radio-canada.ca/w_635,h_357/v1/ici-info/sports/16x9/soccer-ballons-2.jpg">
-    
- 
- <p>Enver Creek has a various sports for you to choose from </p> 
-    </div>
-<div class="column content more">
-      
-    <h1>Basketball</h1> <img src="https://guardian.ng/wp-content/uploads/2016/04/Basketball.jpg">
-
- <p>Enver Creek has a various sports for you to choose from </p> 
-    </div>
-    
-    
-    <div class="column content more">
-     <h1>Kabadee</h1>
-   <img src="https://images.mapsofindia.com/my-india/2014/12/kabaddi.jpg">
-    <p>Enver Creek has a various sports for you to choose from </p> 
-    </div>
-    
-    
-    <div class="column content more">
-       <h1>Volleyball</h1>
-  <img src="https://image.spreadshirtmedia.net/image-server/v1/mp/compositions/P114402819MPC128596632/views/3,width=300,height=300,appearanceId=1,backgroundColor=E8E8E8,version=1478003241/volleyball-t-shirts-men-s-t-shirt.jpg">
-    <p>Enver Creek has a various sports for you to choose from </p>
-
-    </div>
-    
-
+  <div class="column content">
+    <img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg">
+    <h1>Welcome</h1>
+    <p>This is the Enver Creek Secondary School website.</p>
+    <p>At Enver Creek Secondary School we provide opportunities for success and excellence as we prepare students to become confident, thoughtful, and responsible members of the community.</p>
   </div>
- 
-<div class="footer">
-  <p>Contact Us:</p>
-   <p>604-555-1234</p>
-</div>
+<p class="lines">____________________________________________________________________________</p>
+<div class="column content more">
+    <img src="https://www.surreyschools.ca/schools/envercreek/Extra-curricular/SportsTeams/Documents/Web%20pictures%20004.jpg">
+    <h1>Basketball</h1>
+    <p>Our basketball team for both boys and girls is a great comeptitor against other schools.</p>
+  </div>
+<p class="lines">____________________________________________________________________________</p>
+<div class="column content more">
+    <img src="https://m.media-amazon.com/images/S/aplus-media/vc/7895a621-9359-412d-92d2-94c15adc4c70.jpg">
+    <h1>Soccer</h1>
+    <p>We have a vast majority of sports or activities for your child one of our most well known is our soccer team. </p>
+  </div>
+<p class="lines">____________________________________________________________________________</p>
+<div class="column content more">
+    <img src="https://pgnewsbreaker.com/wp-content/uploads/2017/10/badminton-sport-thumbnail-600x400.jpg">
+    <h1>badminton</h1>
 
+    <p> A sport that most people are good at and gives a great work out.</p>
+  </div>
+</div>
+<div class="footer">
+<div class="fr">
+<p>Phone: 604-543-8149</p>
+<p>Fax: 604-543-9762</p>
+</div>
+<p>14505-84 Avenue</p>
+<p>Surrey, B.C. Canada</p>
+</div>
+</div>
 </body>
 </html>
